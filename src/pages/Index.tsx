@@ -9,6 +9,7 @@ import FactsSection from "@/components/FactsSection";
 import EmotionSection from "@/components/EmotionSection";
 import VoiceMessages from "@/components/VoiceMessages";
 import GiftSection from "@/components/GiftSection";
+import PeriodicTableSection from "@/components/PeriodicTableSection";
 import { Heart } from "lucide-react";
 
 const Index = () => {
@@ -26,6 +27,9 @@ const Index = () => {
           яркая девушка как ты! Мы так рады, что ты есть в нашей жизни.
         </p>
       </header>
+
+      {/* Периодическая таблица */}
+      <PeriodicTableSection />
 
       {/* Галерея фото */}
       <section className="max-w-5xl mx-auto px-4 pb-12">
